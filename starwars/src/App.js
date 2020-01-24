@@ -27,9 +27,10 @@ const App = () => {
   return (
     <div className="App">
       <h1 className="Header">React Wars</h1>
-      {data.map( char => {
+      {data.map( (char, i) => {
         return (
       <Card
+        key = {i} // Needed even if not used
         name = {char.name}
         height = {char.height}
         mass = {char.mass}
