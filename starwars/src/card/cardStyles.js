@@ -10,6 +10,7 @@ export const Cardbox = styled.div `
     margin: 5px;
     width: 30%;
     opacity: 45%;
+    border-radius: 13px;
 
 `
 
